@@ -34,7 +34,7 @@ def getResturant():
 #coordinates formate: '49.1681184087879, -123.1362330541569'
 def getResturant(coordinates):
     # Define the API Key.
-    API_KEY = 'AIzaSyADetO8a2_rTpsKYG6HGWnSElmlspiKi_8'
+    API_KEY = ''
 
     # Define the Client
     gmaps = googlemaps.Client(key = API_KEY)
